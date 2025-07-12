@@ -1,0 +1,10 @@
+{
+  "logs": [
+    {
+      "timestamp": "2025-07-12 08:20",
+      "meal_type": "Breakfast",
+      "description": "rice and stew",
+      "water": 3
+    }
+  ]
+}

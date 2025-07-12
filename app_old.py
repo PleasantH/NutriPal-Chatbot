@@ -170,3 +170,4 @@ elif section == "📅 Diet Tracker":
 
 # To run Streamlit:
 # streamlit run app.py
+# venv\Scripts\activate
