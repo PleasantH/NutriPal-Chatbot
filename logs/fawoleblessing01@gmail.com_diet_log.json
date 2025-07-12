@@ -1,0 +1,18 @@
+[
+  {
+    "timestamp": "2025-07-11 09:34",
+    "meal_type": "Breakfast",
+    "description": "spagethi and egg",
+    "water": 3,
+    "date": "2025-07-11",
+    "email": "fawoleblessing01@gmail.com"
+  },
+  {
+    "timestamp": "2025-07-11 09:44",
+    "meal_type": "Breakfast",
+    "description": "yam and egg",
+    "water": 2,
+    "date": "2025-07-11",
+    "email": "fawoleblessing01@gmail.com"
+  }
+]

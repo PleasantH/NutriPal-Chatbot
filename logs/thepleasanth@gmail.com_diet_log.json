@@ -1,0 +1,82 @@
+[
+  {
+    "timestamp": "2025-07-10 15:40",
+    "meal_type": "Breakfast",
+    "description": "Spaghetti and egg",
+    "water": 2,
+    "date": "2025-07-10",
+    "email": "thepleasanth@gmail.com"
+  },
+  {
+    "timestamp": "2025-07-10 15:53",
+    "meal_type": "Lunch",
+    "description": "Rice and Chicken",
+    "water": 2,
+    "date": "2025-07-10",
+    "email": "thepleasanth@gmail.com"
+  },
+  {
+    "timestamp": "2025-07-10 15:53",
+    "meal_type": "Breakfast",
+    "description": "Spaghetti and Egg",
+    "water": 1,
+    "date": "2025-07-10",
+    "email": "thepleasanth@gmail.com"
+  },
+  {
+    "timestamp": "2025-07-10 15:54",
+    "meal_type": "Dinner",
+    "description": "Eba and Ewedu with Meat",
+    "water": 3,
+    "date": "2025-07-10",
+    "email": "thepleasanth@gmail.com"
+  },
+  {
+    "timestamp": "2025-07-10 15:54",
+    "meal_type": "Snack",
+    "description": "Doughnut\n",
+    "water": 1,
+    "date": "2025-07-10",
+    "email": "thepleasanth@gmail.com"
+  },
+  {
+    "timestamp": "2025-07-10 16:07",
+    "meal_type": "Breakfast",
+    "description": "Rice and Stew and fish",
+    "water": 1,
+    "date": "2025-07-10",
+    "email": "thepleasanth@gmail.com"
+  },
+  {
+    "timestamp": "2025-07-10 16:07",
+    "meal_type": "Lunch",
+    "description": "Spaghetti and Egg sauce",
+    "water": 2,
+    "date": "2025-07-10",
+    "email": "thepleasanth@gmail.com"
+  },
+  {
+    "timestamp": "2025-07-10 16:08",
+    "meal_type": "Dinner",
+    "description": "Amala and Ewedu with meat",
+    "water": 3,
+    "date": "2025-07-10",
+    "email": "thepleasanth@gmail.com"
+  },
+  {
+    "timestamp": "2025-07-10 21:59",
+    "meal_type": "Breakfast",
+    "description": "Yam and egg",
+    "water": 1,
+    "date": "2025-07-10",
+    "email": "thepleasanth@gmail.com"
+  },
+  {
+    "timestamp": "2025-07-10 22:03",
+    "meal_type": "Breakfast",
+    "description": "yam and egg sauce",
+    "water": 2,
+    "date": "2025-07-10",
+    "email": "thepleasanth@gmail.com"
+  }
+]

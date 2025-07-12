@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2025-07-10 22:09",
+    "meal_type": "Breakfast",
+    "description": "yam and egg",
+    "water": 1,
+    "date": "2025-07-10",
+    "email": "theayobamifawole@gmail.com"
+  },
+  {
+    "timestamp": "2025-07-10 22:11",
+    "meal_type": "Lunch",
+    "description": "beans and plantain",
+    "water": 6,
+    "date": "2025-07-10",
+    "email": "theayobamifawole@gmail.com"
+  },
+  {
+    "timestamp": "2025-07-10 22:12",
+    "meal_type": "Dinner",
+    "description": "Semo and Egusi with beef",
+    "water": 4,
+    "date": "2025-07-10",
+    "email": "theayobamifawole@gmail.com"
+  }
+]
