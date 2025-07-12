@@ -28,6 +28,7 @@ model = "gemini-2.5-pro"
 # Persistent user memory folder
 os.makedirs("nutripal_users", exist_ok=True)
 
+# System Prompt
 SYSTEM_PROMPT = types.Content(
     role="user",
     parts=[types.Part(text="""
@@ -46,7 +47,6 @@ You specialize in African cuisine, meal planning, water intake, food allergies, 
     """)]
 )
 
-
 # Save logs per user
 def save_user_data(email, meal_type, description, water):
     user_file = f"nutripal_users/{email}.json"
@@ -64,6 +64,7 @@ def save_user_data(email, meal_type, description, water):
     data["logs"].append(entry)
     with open(user_file, 'w') as f:
         json.dump(data, f, indent=2)
+    return entry
 
 # Generate Summary
 def generate_summary(email):
@@ -133,7 +134,7 @@ threading.Thread(target=schedule_summaries, daemon=True).start()
 
 # Streamlit UI
 st.set_page_config(page_title="NutriPal AI 🍲", layout="wide")
-st.title("NutriPal AI 🍲")
+st.markdown("<h1 style='text-align:center;'>NutriPal AI 👩‍⚕️</h1>", unsafe_allow_html=True)
 
 with st.sidebar:
     user_email = st.text_input("Enter your email")
@@ -197,10 +198,13 @@ elif section == "📅 Log Meals":
         desc = st.text_area("What did you eat?")
         water = st.slider("Water (cups)", 0, 10, 0)
         if st.button("Log Entry"):
-            save_user_data(user_email, meal_type, desc, water)
+            entry = save_user_data(user_email, meal_type, desc, water)
             st.success("Logged successfully!")
+            st.markdown(f"**{entry['timestamp']}** — *{entry['meal_type']}* 🍽️")
+            st.markdown(f"Meal: {entry['description']}  \nWater: {entry['water']} cups")
     else:
         st.warning("Please enter your email in the sidebar.")
+
 
 # To run Streamlit:
 # streamlit run app.py

@@ -5,6 +5,12 @@
       "meal_type": "Breakfast",
       "description": "rice and stew",
       "water": 3
+    },
+    {
+      "timestamp": "2025-07-12 08:43",
+      "meal_type": "Breakfast",
+      "description": "bread and egg",
+      "water": 2
     }
   ]
 }
